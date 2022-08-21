@@ -1,0 +1,9 @@
+cmd
+heroku login
+cd ruta del proyecto
+git init
+heroku git:remote -a nombre_proyecto_heroku
+git status
+git add .
+git commit -m ""
+git push heroku master

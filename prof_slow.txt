@@ -1,0 +1,481 @@
+Statistical profiling result from slow-v8.log, (40364 ticks, 7 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  35788   88.7%          C:\Windows\SYSTEM32\ntdll.dll
+   4073   10.1%          C:\Program Files\nodejs\node.exe
+      6    0.0%          C:\Windows\System32\KERNELBASE.dll
+      2    0.0%          C:\Windows\System32\KERNEL32.DLL
+      1    0.0%          C:\Windows\System32\WS2_32.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     36    0.1%    7.3%  LazyCompile: *resolve node:path:158:10
+     28    0.1%    5.7%  LazyCompile: *recurse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\babel-walk\lib\index.js:73:26
+     24    0.1%    4.9%  LazyCompile: *readString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:3019:13
+     17    0.0%    3.4%  LazyCompile: *parseChar C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:76:19
+     11    0.0%    2.2%  LazyCompile: *walkAST C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-walk\index.js:4:17
+     11    0.0%    2.2%  LazyCompile: *next C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:1913:7
+      9    0.0%    1.8%  LazyCompile: *parseMaybeAssign C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12181:19
+      9    0.0%    1.8%  LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      8    0.0%    1.6%  LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      8    0.0%    1.6%  LazyCompile: *readWord1 C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:3253:12
+      8    0.0%    1.6%  LazyCompile: *isConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\constantinople\lib\index.js:332:20
+      7    0.0%    1.4%  LazyCompile: *recurse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\babel-walk\lib\index.js:110:26
+      7    0.0%    1.4%  LazyCompile: *parseExprSubscripts C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12536:22
+      7    0.0%    1.4%  LazyCompile: *getTokenFromCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2495:19
+      7    0.0%    1.4%  LazyCompile: *advance C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1656:20
+      6    0.0%    1.2%  LazyCompile: *parseExprOp C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12300:14
+      6    0.0%    1.2%  LazyCompile: *parseExprAtom C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12801:16
+      5    0.0%    1.0%  LazyCompile: *skipSpace C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2080:12
+      5    0.0%    1.0%  LazyCompile: *parse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:28:15
+      5    0.0%    1.0%  LazyCompile: *initializeScopes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:4129:19
+      5    0.0%    1.0%  LazyCompile: *Parser C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:470:31
+      4    0.0%    0.8%  RegExp: ^\.([_a-z0-9\-]*[_a-z][_a-z0-9\-]*)
+      4    0.0%    0.8%  RegExp: ^(\w(?:[-:\w]*\w)?)
+      4    0.0%    0.8%  LazyCompile: *when C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:873:17
+      4    0.0%    0.8%  LazyCompile: *shallowEqual C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\constantinople\lib\index.js:247:22
+      4    0.0%    0.8%  LazyCompile: *readNumber C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2885:13
+      4    0.0%    0.8%  LazyCompile: *readInt C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2781:10
+      4    0.0%    0.8%  LazyCompile: *readEscapedChar C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:3145:18
+      4    0.0%    0.8%  LazyCompile: *pp$3.parseMaybeAssign C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:1976:35
+      4    0.0%    0.8%  LazyCompile: *parseText C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:297:22
+      4    0.0%    0.8%  LazyCompile: *get C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\types\lib\index.js:623:19
+      4    0.0%    0.8%  LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:1270:18
+      4    0.0%    0.8%  LazyCompile: *Tokenizer C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:1896:14
+      3    0.0%    0.6%  RegExp: ^(Named)?Block$
+      3    0.0%    0.6%  LazyCompile: *yield C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:806:18
+      3    0.0%    0.6%  LazyCompile: *visitBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:420:23
+      3    0.0%    0.6%  LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      3    0.0%    0.6%  LazyCompile: *pp$9.nextToken C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:4391:28
+      3    0.0%    0.6%  LazyCompile: *pp$6.startNode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:3047:28
+      3    0.0%    0.6%  LazyCompile: *pp$3.parseTemplateElement C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:2506:39
+      3    0.0%    0.6%  LazyCompile: *pp$3.parseExprAtom C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:2223:32
+      3    0.0%    0.6%  LazyCompile: *pluginsMap C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:16408:20
+      3    0.0%    0.6%  LazyCompile: *normalize node:path:304:12
+      3    0.0%    0.6%  LazyCompile: *indent C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1487:19
+      3    0.0%    0.6%  LazyCompile: *finishToken C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2189:14
+      3    0.0%    0.6%  LazyCompile: *findGlobals C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\with\lib\globals.js:166:21
+      3    0.0%    0.6%  LazyCompile: *each C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1042:17
+      3    0.0%    0.6%  LazyCompile: *consume C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:184:20
+      3    0.0%    0.6%  LazyCompile: *compileAttrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:22:22
+      3    0.0%    0.6%  LazyCompile: *buffer C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:203:19
+      3    0.0%    0.6%  LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+      3    0.0%    0.6%  LazyCompile: *attributeValue C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1312:27
+      2    0.0%    0.4%  RegExp: ^while +([^\n]+)
+      2    0.0%    0.4%  RegExp: ^when +([^:\n]+)
+      2    0.0%    0.4%  RegExp: ^mixin +([-\w]+)(?: *\((.*)\))? *
+      2    0.0%    0.4%  RegExp: ^\n[ \t]*\n
+      2    0.0%    0.4%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      2    0.0%    0.4%  RegExp: [_mn]
+      2    0.0%    0.4%  LazyCompile: *tokEnd C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:146:19
+      2    0.0%    0.4%  LazyCompile: *toNamespacedPath node:path:618:19
+      2    0.0%    0.4%  LazyCompile: *tag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:1133:16
+      2    0.0%    0.4%  LazyCompile: *tag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:391:16
+      2    0.0%    0.4%  LazyCompile: *scan C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:197:17
+      2    0.0%    0.4%  LazyCompile: *readToken_plus_min C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2394:21
+      2    0.0%    0.4%  LazyCompile: *parseStatementContent C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:14536:24
+      2    0.0%    0.4%  LazyCompile: *parseMaybeUnary C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12442:18
+      2    0.0%    0.4%  LazyCompile: *parseExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12139:18
+      2    0.0%    0.4%  LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      2    0.0%    0.4%  LazyCompile: *isFileType node:fs:205:20
+      2    0.0%    0.4%  LazyCompile: *interpolation C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:369:26
+      2    0.0%    0.4%  LazyCompile: *incrementColumn C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:173:28
+      2    0.0%    0.4%  LazyCompile: *include C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:818:20
+      2    0.0%    0.4%  LazyCompile: *expect C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:136:19
+      2    0.0%    0.4%  LazyCompile: *attribute C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1216:22
+      2    0.0%    0.4%  LazyCompile: *append C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:732:19
+      2    0.0%    0.4%  Function: ^resOnFinish node:_http_server:788:21
+      1    0.0%    0.2%  RegExp: ^yield
+      1    0.0%    0.2%  RegExp: ^extends?\b
+      1    0.0%    0.2%  RegExp: ^extends?(?= |$|\n)
+      1    0.0%    0.2%  RegExp: ^doctype *([^\n]*)
+      1    0.0%    0.2%  RegExp: ^default\b
+      1    0.0%    0.2%  RegExp: ^block
+      1    0.0%    0.2%  RegExp: ^\/infozip\/?$
+      1    0.0%    0.2%  RegExp: ^\.
+      1    0.0%    0.2%  RegExp: ^:([\w\-]+)
+      1    0.0%    0.2%  RegExp: ^(?:each|for) +([a-zA-Z_$][\w$]*)(?: *, *([a-zA-Z_$][\w$]*))? * in *([^\n]+)
+      1    0.0%    0.2%  RegExp: ^(?:each|for) (.*?) of *([^\n]+)
+      1    0.0%    0.2%  RegExp: ^&attributes\b
+      1    0.0%    0.2%  RegExp: ^#([\w-]+)
+      1    0.0%    0.2%  RegExp: \r\n|\r
+      1    0.0%    0.2%  RegExp: [\x00-\x1f\x27\x5c\x7f-\x9f]|[\ud800-\udbff](?![\udc00-\udfff])|(?<![\ud800-\udbff])[\udc00-\udfff]
+      1    0.0%    0.2%  RegExp: [ \n\t]
+      1    0.0%    0.2%  RegExp: (?<=\n)
+      1    0.0%    0.2%  LazyCompile: *visit C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:292:18
+      1    0.0%    0.2%  LazyCompile: *types.parenR.updateContext.types.braceR.updateContext C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:3148:69
+      1    0.0%    0.2%  LazyCompile: *tok C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:121:16
+      1    0.0%    0.2%  LazyCompile: *toConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\constantinople\lib\index.js:9:24
+      1    0.0%    0.2%  LazyCompile: *toAssignable C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:11597:15
+      1    0.0%    0.2%  LazyCompile: *stringify C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\js-stringify\index.js:4:19
+      1    0.0%    0.2%  LazyCompile: *stat node:internal/modules/cjs/loader:151:14
+      1    0.0%    0.2%  LazyCompile: *readFileSync node:fs:450:22
+      1    0.0%    0.2%  LazyCompile: *prepend C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:701:20
+      1    0.0%    0.2%  LazyCompile: *pp$9.getTokenFromCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:4635:35
+      1    0.0%    0.2%  LazyCompile: *pp$3.parseIdent C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:2862:29
+      1    0.0%    0.2%  LazyCompile: *pp$3.parseExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:1961:34
+      1    0.0%    0.2%  LazyCompile: *parseUntil C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:47:20
+      1    0.0%    0.2%  LazyCompile: *parseParenAndDistinguishExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:13257:37
+      1    0.0%    0.2%  LazyCompile: *parseLiteralAtNode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:13208:21
+      1    0.0%    0.2%  LazyCompile: *parseBlockOrModuleBlockBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:15170:30
+      1    0.0%    0.2%  LazyCompile: *mixin C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:968:18
+      1    0.0%    0.2%  LazyCompile: *isReferenced C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\types\lib\validators\isReferenced.js:8:22
+      1    0.0%    0.2%  LazyCompile: *id C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:443:15
+      1    0.0%    0.2%  LazyCompile: *getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+      1    0.0%    0.2%  LazyCompile: *getOptions C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:11580:20
+      1    0.0%    0.2%  LazyCompile: *formatRaw node:internal/util/inspect:820:19
+      1    0.0%    0.2%  LazyCompile: *finishNode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:4290:13
+      1    0.0%    0.2%  LazyCompile: *extends C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:683:20
+      1    0.0%    0.2%  LazyCompile: *expressionToConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\constantinople\lib\index.js:6:30
+      1    0.0%    0.2%  LazyCompile: *expect C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:4001:9
+      1    0.0%    0.2%  LazyCompile: *eos C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:317:16
+      1    0.0%    0.2%  LazyCompile: *endInterpolation C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:492:29
+      1    0.0%    0.2%  LazyCompile: *emit node:events:474:44
+      1    0.0%    0.2%  LazyCompile: *dot C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:670:16
+      1    0.0%    0.2%  LazyCompile: *dirname node:path:653:10
+      1    0.0%    0.2%  LazyCompile: *className C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:465:22
+      1    0.0%    0.2%  LazyCompile: *checkReservedWord C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:13992:20
+      1    0.0%    0.2%  LazyCompile: *case C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:855:17
+      1    0.0%    0.2%  LazyCompile: *call C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:920:17
+      1    0.0%    0.2%  LazyCompile: *blockCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1203:22
+      1    0.0%    0.2%  LazyCompile: *block C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:1064:18
+      1    0.0%    0.2%  LazyCompile: *block C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:763:18
+      1    0.0%    0.2%  LazyCompile: *blank C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:337:18
+      1    0.0%    0.2%  LazyCompile: *attributesBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1467:28
+      1    0.0%    0.2%  LazyCompile: *Identifier C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\with\lib\globals.js:137:15
+      1    0.0%    0.2%  LazyCompile: *ArrowHeadParsingScope C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:3742:14
+      1    0.0%    0.2%  LazyCompile: *<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:111:35
+      1    0.0%    0.2%  Function: ^visitCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:769:22
+      1    0.0%    0.2%  Function: ^update C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\mongodb\lib\sdam\topology_description.js:139:11
+      1    0.0%    0.2%  Function: ^types.backQuote.updateContext C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:3190:43
+      1    0.0%    0.2%  Function: ^tryReadSync node:fs:429:21
+      1    0.0%    0.2%  Function: ^tryCreateBuffer node:fs:414:25
+      1    0.0%    0.2%  Function: ^toString node:buffer:783:46
+      1    0.0%    0.2%  Function: ^stat node:fs:1454:14
+      1    0.0%    0.2%  Function: ^serveStatic C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\serve-static\index.js:72:31
+      1    0.0%    0.2%  Function: ^removeAllListeners node:events:753:32
+      1    0.0%    0.2%  Function: ^realpathSync node:fs:2412:22
+      1    0.0%    0.2%  Function: ^qstring C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\content-type\index.js:200:18
+      1    0.0%    0.2%  Function: ^pug_attr C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-runtime\index.js:132:18
+      1    0.0%    0.2%  Function: ^processTimers node:internal/timers:487:25
+      1    0.0%    0.2%  Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    0.0%    0.2%  Function: ^parseText C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:297:22
+      1    0.0%    0.2%  Function: ^parseMember C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12601:14
+      1    0.0%    0.2%  Function: ^parseCallExpressionArguments C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:12738:31
+      1    0.0%    0.2%  Function: ^onwrite C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\readable-stream\lib\_stream_writable.js:444:17
+      1    0.0%    0.2%  Function: ^nop C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\readable-stream\lib\_stream_writable.js:101:13
+      1    0.0%    0.2%  Function: ^nextPart node:fs:2388:31
+      1    0.0%    0.2%  Function: ^next C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\router\route.js:116:16
+      1    0.0%    0.2%  Function: ^log node:internal/console/constructor:359:6
+      1    0.0%    0.2%  Function: ^log C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\winston\lib\winston\transports\console.js:44:6
+      1    0.0%    0.2%  Function: ^load C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:9:14
+      1    0.0%    0.2%  Function: ^isUint8Array node:internal/util/types:13:22
+      1    0.0%    0.2%  Function: ^isPathSeparator node:path:52:25
+      1    0.0%    0.2%  Function: ^isConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:8:20
+      1    0.0%    0.2%  Function: ^isAsyncFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:15866:18
+      1    0.0%    0.2%  Function: ^header C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\response.js:777:29
+      1    0.0%    0.2%  Function: ^handleTemplateCache C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:236:29
+      1    0.0%    0.2%  Function: ^getOptions node:internal/fs/utils:314:20
+      1    0.0%    0.2%  Function: ^getHighWaterMark node:internal/streams/state:19:26
+      1    0.0%    0.2%  Function: ^get node:internal/streams/duplex:94:8
+      1    0.0%    0.2%  Function: ^formatValue node:internal/util/inspect:745:21
+      1    0.0%    0.2%  Function: ^eos C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:317:16
+      1    0.0%    0.2%  Function: ^emit node:events:474:44
+      1    0.0%    0.2%  Function: ^bufferExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:241:29
+      1    0.0%    0.2%  Function: ^addWith C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\with\lib\index.js:40:17
+      1    0.0%    0.2%  Function: ^addNode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-linker\index.js:29:39
+      1    0.0%    0.2%  Function: ^addAttribute C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:54:24
+      1    0.0%    0.2%  Function: ^_unrefTimer node:net:417:52
+      1    0.0%    0.2%  Function: ^_copy node:buffer:201:15
+      1    0.0%    0.2%  Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1    0.0%    0.2%  Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      1    0.0%    0.2%  Function: ^<anonymous> node:internal/fs/utils:357:35
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+    487    1.2%   98.6%  JavaScript
+      0    0.0%    0.0%  C++
+    209    0.5%   42.3%  GC
+  39870   98.8%          Shared libraries
+      7    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  35788   88.7%  C:\Windows\SYSTEM32\ntdll.dll
+
+   4073   10.1%  C:\Program Files\nodejs\node.exe
+   2883   70.8%    C:\Program Files\nodejs\node.exe
+    735   25.5%      Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+    735  100.0%        Function: ^writeGeneric node:internal/stream_base_commons:147:22
+    735  100.0%          Function: ^Socket._writeGeneric node:net:769:42
+    735  100.0%            Function: ^Socket._write node:net:806:35
+    344   11.9%      Function: ^compileFunction node:vm:308:25
+    344  100.0%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+    199   57.8%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1057:37
+    199  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+    143   41.6%          Function: ^Module._compile node:internal/modules/cjs/loader:1057:37
+    137   95.8%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      6    4.2%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1112:37
+    135    4.7%      Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:10:13
+    135  100.0%        Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:85:18
+    121   89.6%          Function: ^loadString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:49:34
+     63   52.1%            Function: ^compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+     33   27.3%            LazyCompile: *<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:13:28
+     24   19.8%            Function: ^<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:13:28
+     14   10.4%          LazyCompile: *compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+     14  100.0%            Function: ^exports.compile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:264:27
+    132    4.6%      Function: ^realpathSync node:fs:2412:22
+     90   68.2%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+     84   93.3%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+     75   89.3%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      8    9.5%            Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1    1.2%            LazyCompile: ~tryPackage node:internal/modules/cjs/loader:338:20
+      6    6.7%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      6  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     42   31.8%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+     42  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     31   73.8%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     11   26.2%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+    105    3.6%      C:\Program Files\nodejs\node.exe
+     41   39.0%        LazyCompile: *Parser C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:470:31
+     22   53.7%          LazyCompile: *isExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:75:25
+     13   59.1%            LazyCompile: *attributeValue C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1312:27
+      9   40.9%            LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+     15   36.6%          LazyCompile: *isExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\is-expression\index.js:14:22
+     15  100.0%            Function: ^isExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:75:25
+      4    9.8%          Function: ^isExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\is-expression\index.js:14:22
+      4  100.0%            Function: ^isExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:75:25
+      5    4.8%        LazyCompile: *visitBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:420:23
+      5  100.0%          LazyCompile: *visit C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:292:18
+      5  100.0%            LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      3    2.9%        LazyCompile: *readNumber C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2885:13
+      3  100.0%          LazyCompile: *getTokenFromCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:2495:19
+      3  100.0%            LazyCompile: *next C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@babel\parser\lib\index.js:1913:7
+      3    2.9%        Function: ^wordsRegexp C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:276:23
+      3  100.0%          Function: ^Parser C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\acorn\dist\acorn.js:470:31
+      3  100.0%            Function: ^isExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\is-expression\index.js:14:22
+      2    1.9%        LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      2  100.0%          LazyCompile: *visitBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:420:23
+      2  100.0%            LazyCompile: *visit C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:292:18
+      2    1.9%        LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      2  100.0%          LazyCompile: *advance C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1656:20
+      1   50.0%            LazyCompile: *getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+      1   50.0%            LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      2    1.9%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      2    1.9%        Function: ^strEscape C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\safe-stable-stringify\index.js:55:20
+      2  100.0%          Function: ^stringifyFnReplacer C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\safe-stable-stringify\index.js:203:32
+      2  100.0%            Function: ^stringifyFnReplacer C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\safe-stable-stringify\index.js:203:32
+      2    1.9%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      1   50.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1   50.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2    1.9%        Function: ^pipe C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\send\index.js:506:43
+      2  100.0%          Function: ^serveStatic C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\serve-static\index.js:72:31
+      2  100.0%            Function: ^handle C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\router\layer.js:86:49
+      2    1.9%        Function: ^header C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\response.js:777:29
+      2  100.0%          Function: ^contentType C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\response.js:619:32
+      2  100.0%            Function: ^send C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\response.js:111:25
+      2    1.9%        Function: ^getOptions C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:111:20
+      1   50.0%          Function: ^loadString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:49:34
+      1  100.0%            Function: ^compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+      1   50.0%          Function: ^load C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:9:14
+      1  100.0%            Function: ^loadString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:49:34
+      2    1.9%        Function: ^fromString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\mongodb\lib\utils.js:370:22
+      2  100.0%          Function: ^ns C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\mongodb\lib\utils.js:348:12
+      2  100.0%            Function: ^measureRoundTripTime C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\mongodb\lib\sdam\monitor.js:287:30
+      2    1.9%        Function: ^checkInvalidHeaderChar node:_http_common:232:32
+      2  100.0%          Function: ^<anonymous> node:_http_outgoing:564:45
+      2  100.0%            Function: ^setHeader node:_http_outgoing:574:57
+      2    1.9%        Function: ^addWith C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\with\lib\index.js:40:17
+      2  100.0%          Function: ^compile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:109:20
+      2  100.0%            Function: ^generateCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:31:22
+     81    2.8%      LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+     79   97.5%        LazyCompile: *advance C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1656:20
+     75   94.9%          LazyCompile: *getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+     75  100.0%            Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:10:13
+      4    5.1%          LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      4  100.0%            Function: ^getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+      2    2.5%        Function: ^assertExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:81:29
+      1   50.0%          LazyCompile: *code C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1132:17
+      1  100.0%            LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      1   50.0%          Function: ^code C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1132:17
+      1  100.0%            LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+     72    2.5%      Function: ^stat node:internal/modules/cjs/loader:151:14
+     45   62.5%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+     44   97.8%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+     38   86.4%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      6   13.6%            Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1    2.2%          Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+     27   37.5%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+     26   96.3%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     26  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    3.7%          LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     69    2.4%      Function: ^parse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-parser\index.js:10:15
+     69  100.0%        Function: ^parse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:110:20
+     61   88.4%          Function: ^loadString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:49:34
+     38   62.3%            Function: ^compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+     14   23.0%            LazyCompile: *<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:13:28
+      9   14.8%            Function: ^<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:13:28
+      8   11.6%          LazyCompile: *compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+      8  100.0%            Function: ^exports.compile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:264:27
+     59    2.0%      Function: ^openSync node:fs:576:18
+     59  100.0%        Function: ^readFileSync node:fs:450:22
+     25   42.4%          Function: ^read C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:84:26
+     25  100.0%            Function: ^read C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:155:19
+     17   28.8%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+     15   88.2%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      2   11.8%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     16   27.1%          Function: ^handleTemplateCache C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:236:29
+     16  100.0%            Function: ^exports.renderFile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:436:30
+      1    1.7%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      1  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:969:33
+     49    1.7%      LazyCompile: *parseChar C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:76:19
+     26   53.1%        LazyCompile: *parse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:28:15
+     25   96.2%          LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+     25  100.0%            LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      1    3.8%          Function: ^assertNestingCorrect C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:100:33
+      1  100.0%            Function: ^attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+     16   32.7%        LazyCompile: *parseUntil C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:47:20
+     16  100.0%          LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+     16  100.0%            LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      6   12.2%        LazyCompile: *attributeValue C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1312:27
+      5   83.3%          LazyCompile: *attribute C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1216:22
+      5  100.0%            LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+      1   16.7%          Function: ^attribute C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1216:22
+      1  100.0%            Function: ^attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+      1    2.0%        Function: ^parse C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\character-parser\index.js:28:15
+      1  100.0%          Function: ^assertNestingCorrect C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:100:33
+      1  100.0%            Function: ^attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1440:18
+     49    1.7%      Function: ^load C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:9:14
+     43   87.8%        Function: ^loadString C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:49:34
+     26   60.5%          Function: ^compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+     26  100.0%            Function: ^exports.compile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:264:27
+     11   25.6%          Function: ^<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:13:28
+     11  100.0%            LazyCompile: *walkAST C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-walk\index.js:4:17
+      6   14.0%          LazyCompile: *<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-load\index.js:13:28
+      6  100.0%            LazyCompile: *walkAST C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-walk\index.js:4:17
+      6   12.2%        LazyCompile: *compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+      6  100.0%          Function: ^exports.compile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:264:27
+      6  100.0%            Function: ^handleTemplateCache C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:236:29
+     43    1.5%      Function: ^isatty node:tty:42:16
+     30   69.8%        LazyCompile: ~useColors C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io\node_modules\debug\src\node.js:155:19
+     30  100.0%          LazyCompile: ~createDebug C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io\node_modules\debug\src\common.js:60:22
+      9   30.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io\dist\namespace.js:1:1
+      9   30.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io\dist\client.js:1:1
+      6   20.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io\dist\uws.js:1:1
+      6   20.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io\dist\socket.js:1:1
+      6   14.0%        LazyCompile: ~useColors C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io-parser\node_modules\debug\src\node.js:155:19
+      6  100.0%          LazyCompile: ~createDebug C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io-parser\node_modules\debug\src\common.js:60:22
+      6  100.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\socket.io-parser\dist\index.js:1:1
+      5   11.6%        LazyCompile: ~useColors C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\debug\src\node.js:75:19
+      4   80.0%          LazyCompile: ~createDebug C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\debug\src\debug.js:63:21
+      2   50.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\finalhandler\index.js:1:1
+      2   50.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express\lib\router\route.js:1:1
+      1   20.0%          Function: ^createDebug C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\debug\src\debug.js:63:21
+      1  100.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\express-session\index.js:1:1
+      1    2.3%        LazyCompile: ~useColors C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\connect-mongo\node_modules\debug\src\node.js:155:19
+      1  100.0%          LazyCompile: ~createDebug C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\connect-mongo\node_modules\debug\src\common.js:60:22
+      1  100.0%            Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\connect-mongo\build\main\lib\MongoStore.js:1:1
+      1    2.3%        Function: ~<anonymous> C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\@dabh\diagnostics\node\development.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1057:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+     41    1.4%      Function: ^unwrapReturns C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\with\lib\index.js:127:23
+     41  100.0%        Function: ^addWith C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\with\lib\index.js:40:17
+     41  100.0%          Function: ^compile C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:109:20
+     32   78.0%            Function: ^generateCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:31:22
+      9   22.0%            LazyCompile: *compileBody C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:77:21
+     41    1.4%      Function: ^readSync node:fs:684:18
+     33   80.5%        Function: ^tryReadSync node:fs:429:21
+     33  100.0%          Function: ^readFileSync node:fs:450:22
+     32   97.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      1    3.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      8   19.5%        LazyCompile: *readFileSync node:fs:450:22
+      8  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+      8  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+     32    1.1%      Function: ^writevGeneric node:internal/stream_base_commons:122:23
+     32  100.0%        Function: ^Socket._writeGeneric node:net:769:42
+     32  100.0%          Function: ^Socket._writev node:net:801:36
+     32  100.0%            Function: ^doWrite node:internal/streams/writable:398:17
+     50    1.2%    LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+     46   92.0%      LazyCompile: *advance C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1656:20
+     44   95.7%        LazyCompile: *getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+     44  100.0%          Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:10:13
+     44  100.0%            Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug\lib\index.js:85:18
+      2    4.3%        LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      2  100.0%          Function: ^getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+      2  100.0%            Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:10:13
+      3    6.0%      Function: ^advance C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1656:20
+      3  100.0%        LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      3  100.0%          Function: ^getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+      3  100.0%            Function: ^lex C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:10:13
+      1    2.0%      Function: ^comment C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:350:20
+      1  100.0%        LazyCompile: *callLexerFunction C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1635:30
+      1  100.0%          LazyCompile: *advance C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1656:20
+      1  100.0%            LazyCompile: *getTokens C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-lexer\index.js:1704:22
+     44    1.1%    LazyCompile: *compileFunction node:vm:308:25
+     44  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+     44  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1057:37
+     44  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1112:37
+     28   63.6%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     16   36.4%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+     41    1.0%    LazyCompile: *isConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\constantinople\lib\index.js:332:20
+     12   29.3%      LazyCompile: *compileAttrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:22:22
+      8   66.7%        LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      4   50.0%          LazyCompile: *visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      4  100.0%            LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      4   50.0%          Function: ^visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      4  100.0%            LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      4   33.3%        Function: ^attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      4  100.0%          Function: ^visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      3   75.0%            Function: ^visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      1   25.0%            LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+     11   26.8%      LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+     10   90.9%        Function: ^visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+     10  100.0%          LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+     10  100.0%            LazyCompile: *visitBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:420:23
+      1    9.1%        LazyCompile: *visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      1  100.0%          LazyCompile: *visitTag C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:613:21
+      1  100.0%            LazyCompile: *visitBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:420:23
+      6   14.6%      LazyCompile: *addAttribute C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:54:24
+      6  100.0%        LazyCompile: *compileAttrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:22:22
+      6  100.0%          LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      6  100.0%            Function: ^visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      4    9.8%      LazyCompile: *toConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:11:20
+      4  100.0%        LazyCompile: *compileAttrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:22:22
+      4  100.0%          LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      3   75.0%            Function: ^visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      1   25.0%            LazyCompile: *visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+      4    9.8%      Function: ^isConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:8:20
+      3   75.0%        Function: ^addAttribute C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:54:24
+      3  100.0%          LazyCompile: *compileAttrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:22:22
+      3  100.0%            LazyCompile: *attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      1   25.0%        C:\Program Files\nodejs\node.exe
+      1  100.0%          Function: ^compileAttrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-attrs\index.js:22:22
+      1  100.0%            Function: ^attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      2    4.9%      LazyCompile: *bufferExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:241:29
+      2  100.0%        LazyCompile: *visitCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:769:22
+      2  100.0%          LazyCompile: *visitBlock C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:420:23
+      2  100.0%            LazyCompile: *visit C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:292:18
+      2    4.9%      Function: ^isConstant C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:35:20
+      2  100.0%        Function: ^bufferExpression C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:241:29
+      1   50.0%          Function: ^visitCode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:769:22
+      1  100.0%            Function: ^visitNode C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:363:22
+      1   50.0%          Function: ^attrs C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:971:18
+      1  100.0%            Function: ^visitAttributes C:\Users\duvam\Documents\Coder House backend\desafio_loggers_gzip\Loggers_gzip\node_modules\pug-code-gen\index.js:935:28
+
